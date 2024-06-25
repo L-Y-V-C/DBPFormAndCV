@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="appCV.MainPage"
+             Title="Página Principal">
+    <StackLayout Padding="20">
+        <Label Text="Bienvenido a la App de CV" FontSize="24" HorizontalOptions="Center" />
+        <Button Text="Ir al Formulario de CV" Clicked="OnNavigateToCVFormPage" />
+    </StackLayout>
+</ContentPage>
